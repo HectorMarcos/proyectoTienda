@@ -270,3 +270,25 @@ a {
 	display: block;
 	margin: 0 auto;
 }
+
+/* FAQs */
+
+.faq_title {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.container_home-4 {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.container_home-4 h1 {
+	margin-bottom: 15px;
+}
+
+.container_home-4 p {
+	margin-bottom: 30px;
+}
