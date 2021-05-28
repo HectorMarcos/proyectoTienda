@@ -222,3 +222,27 @@ footer p {
 .productos_productContent h2 {
 	margin-bottom: 10px;
 }
+
+/* Formulario */
+
+.formulario_main {
+	margin-top: 200px;
+	display: flex;
+	justify-content: center;
+}
+.form_container {
+	padding: 10px;
+}
+.formulario_form {
+	box-shadow: var(--boxshadow);
+	width: 340px;
+	height: 345px;
+	padding: 15px;
+}
+.formulario_form input {
+	width: 100%;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border: 1px solid var(--black-color);
+}
