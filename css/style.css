@@ -11,7 +11,7 @@
 	/* Tipografia */
 	--normal: 12px;
 	/* BoxShadow */
-	--boxshadow: 0 0 2px #9c9a9a;
+	--boxshadow: 0 0 3px #9c9a9a;
 }
 
 /* Variables */
@@ -22,6 +22,7 @@ body {
 	margin: 0px;
 	font-size: var(--normal);
 	font-family: "Open Sans", sans-serif;
+	box-sizing: border-box;
 }
 
 nav {
@@ -53,7 +54,8 @@ nav li a:hover {
 /* Main Section */
 
 .main_section {
-	padding: 15%;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	text-align: center;
 }
 
@@ -64,18 +66,22 @@ nav li a:hover {
 	height: 50px;
 	display: flex;
 	justify-content: center;
-	padding: 15%;
+	padding: 10%;
 }
 
 .product {
 	padding: var(--space);
 	margin-top: -240px;
+	width: 300px;
 }
 
 .product .content {
 	background-color: white;
 	padding: 15px;
 	box-shadow: var(--boxshadow);
+}
+.content h2 {
+	text-align: center;
 }
 
 .img_content {
@@ -95,4 +101,65 @@ nav li a:hover {
 
 .main_button:hover {
 	background-color: #75ad40;
+}
+
+/* Addverts */
+
+.addverts {
+	display: flex;
+	justify-content: center;
+}
+
+.add {
+	width: 200px;
+	margin: 40px 50px;
+	text-align: center;
+}
+.add p {
+	text-align: left;
+}
+
+.add img {
+	width: 150px;
+	height: 150px;
+}
+
+/* Mentions */
+
+.mentions {
+	margin-bottom: 40px;
+}
+.mentions h1 {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.mentionsbox {
+	display: flex;
+	justify-content: center;
+}
+.mention {
+	width: 300px;
+	box-shadow: var(--boxshadow);
+	margin: 0 10px;
+}
+
+.mention h2,
+p {
+	margin-left: 10px;
+}
+.mention img {
+	width: 100%;
+}
+
+/* Footer */
+
+footer {
+	background-color: #313337;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+footer p {
+	margin-right: 10px;
 }
