@@ -24,16 +24,16 @@
 
 html,
 body {
-	padding: 0px;
-	margin: 0px;
 	font-size: var(--normal);
 	font-family: "Open Sans", sans-serif;
 }
+
 h1 {
 	font-size: 30px;
 }
 h1,
-h2 {
+h2,
+p {
 	color: var(--black-color);
 }
 
@@ -44,6 +44,9 @@ nav {
 	color: var(--white-color);
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 nav ul {
@@ -66,12 +69,15 @@ nav li a:hover {
 /* Main Section */
 
 .hero {
-	width: 100%;
+	width: 60%;
+	margin: 0 auto;
 	height: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 100px;
+	margin-top: 50px;
+	text-align: center;
 }
 
 .products {
@@ -132,6 +138,7 @@ nav li a:hover {
 }
 .add p {
 	text-align: left;
+	margin-top: 10px;
 }
 
 .add img {
@@ -162,6 +169,7 @@ nav li a:hover {
 .mention h2,
 .mention p {
 	margin-left: 10px;
+	margin-bottom: 5px;
 }
 .mention img {
 	width: 100%;
@@ -174,9 +182,12 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	color: white;
+	width: 100%;
+	margin-top: 50px;
 }
 footer p {
 	margin: 10px 10px;
+	color: white;
 }
 
 /* Producto */
@@ -205,7 +216,7 @@ footer p {
 	justify-content: space-between;
 	height: 230px;
 	width: 100%;
-	margin-bottom: 97px;
+	/* margin-bottom: 97px; */
 }
 .productos_img {
 	height: 230px;
