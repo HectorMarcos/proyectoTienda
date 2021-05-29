@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/grid.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/mobile.css" />
+		<link rel="stylesheet" href="./css/animation.css" />
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Brand</title>
+	</head>
+	<body>
+		<!-- NavBar -->
+		<nav class="fadeInDown">
+			<div class="brandimage">
+				<a href="./index.html"><img src="./img/logo.png" alt="BrandLogo" /></a>
+			</div>
+			<div class="nav_options">
+				<ul>
+					<li><a href="./faqs.html">FAQs</a></li>
+					<li><a href="./productos.html">Producto y descripción</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- NavBarEnd -->
+		<!-- Main -->
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="modulo_pago">
+						<img src="./img/box2.png" alt="" />
+						<h2>Producto 1</h2>
+						<p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+					</div>
+				</div>
+				<div class="col-8">
+					<div class="modulo_pago">
+						<form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=96CNQCRXQRB2A" method="POST">
+							<label for="name">Nombre</label>
+							<input type="text" placeholder="Introduce tu nombre aquí" name="name" />
+							<label for="email">eMail</label>
+							<input type="email" placeholder="Introduce tu eMail aquí" name="email" />
+							<label for="phone">Teléfono</label>
+							<input type="number" placeholder="Introduce tu teléfono aquí" name="phone" />
+							<input type="submit" class="main_button" name="submit" value="Confirmar Pago" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- MainEnd -->
+		<!-- Footer -->
+		<footer>
+			<p>Tértminos y condiciones</p>
+			<p>contacto@gmail.com</p>
+		</footer>
+		<!-- FooterEnd -->
+	</body>
+</html>

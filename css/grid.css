@@ -75,7 +75,7 @@
 
 @media (max-width: 900px) {
 	.row {
-		display: inherit;
+		flex-direction: column;
 	}
 	.col-1,
 	.col-2,

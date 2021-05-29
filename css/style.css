@@ -41,6 +41,18 @@ p {
 	color: var(--black-color);
 }
 
+label {
+	font-size: 15px;
+	margin-top: 15px;
+}
+input {
+	padding: 10px;
+	border: none;
+	box-shadow: var(--boxshadow);
+	border-radius: 2px;
+	margin-top: 15px;
+}
+
 nav {
 	display: flex;
 	background-color: var(--green-color);
@@ -206,8 +218,7 @@ footer p {
 .productos h2,
 .productos p,
 .productos img {
-	margin: 10px 20px;
-	padding: 5px;
+	padding: 10px;
 }
 
 .col-4,
@@ -260,6 +271,7 @@ footer p {
 
 .content_home-2 img {
 	display: block;
+	max-width: 130px;
 	margin: 0 auto;
 }
 
@@ -285,3 +297,33 @@ footer p {
 	margin-bottom: 30px;
 	margin-left: 5px;
 }
+
+/* Venta */
+
+.modulo_pago {
+	background-color: var(--white-color);
+	box-shadow: var(--boxshadow);
+	padding: 0 15px;
+	padding-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+.modulo_pago img {
+	max-width: 150px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.modulo_pago h2,
+p {
+	margin-bottom: 15px;
+}
+.modulo_pago form {
+	display: flex;
+	flex-direction: column;
+}
+
+/* .modulo_pago .main_button {
+	box-shadow: none;
+} */
