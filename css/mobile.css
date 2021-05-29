@@ -36,3 +36,24 @@
 		margin-right: 5px;
 	}
 }
+
+/* Productos */
+
+@media (max-width: 900px) {
+	.productos img {
+		width: 50%;
+		display: inherit;
+		margin: auto;
+	}
+	.productos {
+		display: flex;
+		flex-direction: column;
+	}
+	.productos > .col-4 {
+		order: 1;
+	}
+
+	.productos > .col-8 {
+		order: 2;
+	}
+}

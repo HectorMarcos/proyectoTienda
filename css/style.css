@@ -28,6 +28,10 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
+img {
+	width: 100%;
+}
+
 h1 {
 	font-size: 30px;
 }
@@ -44,8 +48,6 @@ nav {
 	color: var(--white-color);
 	justify-content: space-between;
 	align-items: center;
-	position: fixed;
-	top: 0;
 	width: 100%;
 }
 
@@ -194,48 +196,23 @@ footer p {
 	color: white;
 }
 
-/* Producto */
+/* Producto Grid */
 
-.productoTitle {
-	width: 1000px;
-	margin: 0 auto;
-	height: 200px;
-	display: flex;
+.productos {
 	align-items: center;
 }
 
-.productos_products {
-	margin: 0 auto;
-	width: 1000px;
+.productos h1,
+.productos h2,
+.productos p,
+.productos img {
+	margin: 10px 20px;
+	padding: 5px;
 }
 
-.productos_product {
-	width: 100%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-}
-.productos_product {
-	display: flex;
-	justify-content: space-between;
-	height: 230px;
-	width: 100%;
-	/* margin-bottom: 97px; */
-}
-.productos_img {
-	height: 230px;
-}
-.productos_img img {
-	height: 100%;
-}
-.productos_productContent {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0px 80px;
-}
-.productos_productContent h2 {
-	margin-bottom: 10px;
+.col-4,
+.col-8 {
+	align-items: center;
 }
 
 /* Formulario */
