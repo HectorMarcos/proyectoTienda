@@ -69,7 +69,7 @@ nav li a:hover {
 /* Main Section */
 
 .hero {
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 	height: 200px;
 	display: flex;
@@ -103,6 +103,9 @@ nav li a:hover {
 }
 .content h2 {
 	text-align: center;
+}
+.content p {
+	margin: 10px 0px;
 }
 
 .img_content {
